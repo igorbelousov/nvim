@@ -94,6 +94,11 @@ _G.packer_plugins = {
     path = "/home/igor/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
+  ["codeium.vim"] = {
+    loaded = true,
+    path = "/home/igor/.local/share/nvim/site/pack/packer/start/codeium.vim",
+    url = "https://github.com/Exafunction/codeium.vim"
+  },
   ["colorbuddy.nvim"] = {
     loaded = true,
     path = "/home/igor/.local/share/nvim/site/pack/packer/start/colorbuddy.nvim",
@@ -124,6 +129,11 @@ _G.packer_plugins = {
     path = "/home/igor/.local/share/nvim/site/pack/packer/start/harpoon",
     url = "https://github.com/theprimeagen/harpoon"
   },
+  ["lazygit.nvim"] = {
+    loaded = true,
+    path = "/home/igor/.local/share/nvim/site/pack/packer/start/lazygit.nvim",
+    url = "https://github.com/kdheepak/lazygit.nvim"
+  },
   ["lspkind-nvim"] = {
     loaded = true,
     path = "/home/igor/.local/share/nvim/site/pack/packer/start/lspkind-nvim",
@@ -153,6 +163,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/igor/.local/share/nvim/site/pack/packer/start/mason.nvim",
     url = "https://github.com/williamboman/mason.nvim"
+  },
+  ["mini.comment"] = {
+    loaded = true,
+    path = "/home/igor/.local/share/nvim/site/pack/packer/start/mini.comment",
+    url = "https://github.com/echasnovski/mini.comment"
   },
   ["neosolarized.nvim"] = {
     loaded = true,
@@ -228,6 +243,16 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/igor/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  undotree = {
+    loaded = true,
+    path = "/home/igor/.local/share/nvim/site/pack/packer/start/undotree",
+    url = "https://github.com/mbbill/undotree"
+  },
+  ["vim-floaterm"] = {
+    loaded = true,
+    path = "/home/igor/.local/share/nvim/site/pack/packer/start/vim-floaterm",
+    url = "https://github.com/voldikss/vim-floaterm"
   },
   ["zen-mode.nvim"] = {
     loaded = true,

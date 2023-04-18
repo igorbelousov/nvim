@@ -16,5 +16,5 @@ keymap.set("n", '<leader>r', '<cmd>GoRename<cr>')
 keymap.set("n", 'K', '<cmd>GoDoc<cr>')
 keymap.set("n", '<leader>at', '<cmd>GoAddTag<cr>')
 keymap.set("n", '<leader>tr', '<cmd>GoClearTag<cr>')
-
+vim.keymap.set("n", "<leader>u", vim.cmd.UndotreeToggle)
 --vim.keymap.set("n", "<leader>s", [[:%s/\<<C-r><C-w>\>/<C-r><C-w>/gI<Left><Left><Left>]])

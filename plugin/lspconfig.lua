@@ -74,7 +74,7 @@ nvim_lsp.flow.setup {
 
 nvim_lsp.tsserver.setup {
   on_attach = on_attach,
-  filetypes = { "typescript", "typescriptreact", "typescript.tsx", "vue" },
+  filetypes = { "typescript", "typescriptreact", "typescript.tsx" },
   cmd = { "typescript-language-server", "--stdio" },
   capabilities = capabilities
 }
@@ -112,7 +112,7 @@ nvim_lsp.cssls.setup {
 }
 nvim_lsp.volar.setup {
   on_attach = on_attach,
-  filetypes = { "vue" },
+  filetypes = { "javascript", "vue", 'typescriptvue', 'typescript.vue' },
   capabilities = capabilities,
 }
 

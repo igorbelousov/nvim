@@ -53,4 +53,8 @@ packer.startup(function(use)
   use 'ray-x/go.nvim'
   use 'ray-x/guihua.lua'
   use('theprimeagen/harpoon')
+  use('kdheepak/lazygit.nvim')
+  use('voldikss/vim-floaterm')
+  use('mbbill/undotree')
+  use('echasnovski/mini.comment')
 end)
