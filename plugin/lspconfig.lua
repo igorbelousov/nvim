@@ -28,7 +28,7 @@ local on_attach = function(client, bufnr)
 
   -- Mappings.
   local opts = { noremap = true, silent = true }
-
+  -- vim.keymap.set("n", "gd", vim.lsp.buf.definition, opts)
   -- See `:help vim.lsp.*` for documentation on any of the below functions
   buf_set_keymap('n', 'gD', '<Cmd>lua vim.lsp.buf.declaration()<CR>', opts)
   --buf_set_keymap('n', 'gd', '<Cmd>lua vim.lsp.buf.definition()<CR>', opts)

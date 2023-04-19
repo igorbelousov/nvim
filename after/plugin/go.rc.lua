@@ -39,4 +39,3 @@ require("go").setup({
 --  test_runner = "go",           -- richgo, go test, richgo, dlv, ginkgo
 --  run_in_floaterm = false,      -- set to true to run in float window.
 -- float term recommended if you use richgo/ginkgo with terminal color
-
