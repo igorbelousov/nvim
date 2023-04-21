@@ -45,16 +45,11 @@ packer.startup(function(use)
     "iamcco/markdown-preview.nvim",
     run = function() vim.fn["mkdp#util#install"]() end,
   })
-  use 'akinsho/nvim-bufferline.lua'
-  -- use 'github/copilot.vim'
 
   use 'lewis6991/gitsigns.nvim'
-  use 'dinhhuy258/git.nvim' -- For git blame & browse
   use 'ray-x/go.nvim'
   use 'ray-x/guihua.lua'
   use('theprimeagen/harpoon')
-  use('kdheepak/lazygit.nvim')
-  use('voldikss/vim-floaterm')
   use('mbbill/undotree')
   use('echasnovski/mini.comment')
 end)

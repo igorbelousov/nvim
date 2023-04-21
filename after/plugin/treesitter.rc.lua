@@ -23,6 +23,7 @@ ts.setup {
     "html",
     "lua",
     "go"
+
   },
   autotag = {
     enable = true,

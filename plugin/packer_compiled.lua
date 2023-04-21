@@ -94,20 +94,10 @@ _G.packer_plugins = {
     path = "/home/igor/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
     url = "https://github.com/hrsh7th/cmp-nvim-lsp"
   },
-  ["codeium.vim"] = {
-    loaded = true,
-    path = "/home/igor/.local/share/nvim/site/pack/packer/start/codeium.vim",
-    url = "https://github.com/Exafunction/codeium.vim"
-  },
   ["colorbuddy.nvim"] = {
     loaded = true,
     path = "/home/igor/.local/share/nvim/site/pack/packer/start/colorbuddy.nvim",
     url = "https://github.com/tjdevries/colorbuddy.nvim"
-  },
-  ["git.nvim"] = {
-    loaded = true,
-    path = "/home/igor/.local/share/nvim/site/pack/packer/start/git.nvim",
-    url = "https://github.com/dinhhuy258/git.nvim"
   },
   ["gitsigns.nvim"] = {
     loaded = true,
@@ -128,11 +118,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/igor/.local/share/nvim/site/pack/packer/start/harpoon",
     url = "https://github.com/theprimeagen/harpoon"
-  },
-  ["lazygit.nvim"] = {
-    loaded = true,
-    path = "/home/igor/.local/share/nvim/site/pack/packer/start/lazygit.nvim",
-    url = "https://github.com/kdheepak/lazygit.nvim"
   },
   ["lspkind-nvim"] = {
     loaded = true,
@@ -183,11 +168,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/igor/.local/share/nvim/site/pack/packer/start/nvim-autopairs",
     url = "https://github.com/windwp/nvim-autopairs"
-  },
-  ["nvim-bufferline.lua"] = {
-    loaded = true,
-    path = "/home/igor/.local/share/nvim/site/pack/packer/start/nvim-bufferline.lua",
-    url = "https://github.com/akinsho/nvim-bufferline.lua"
   },
   ["nvim-cmp"] = {
     loaded = true,
@@ -248,11 +228,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/igor/.local/share/nvim/site/pack/packer/start/undotree",
     url = "https://github.com/mbbill/undotree"
-  },
-  ["vim-floaterm"] = {
-    loaded = true,
-    path = "/home/igor/.local/share/nvim/site/pack/packer/start/vim-floaterm",
-    url = "https://github.com/voldikss/vim-floaterm"
   },
   ["zen-mode.nvim"] = {
     loaded = true,
