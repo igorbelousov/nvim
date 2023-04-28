@@ -52,4 +52,15 @@ packer.startup(function(use)
   use('theprimeagen/harpoon')
   use('mbbill/undotree')
   use('echasnovski/mini.comment')
+  use {
+    "jcdickinson/codeium.nvim",
+    requires = {
+      "nvim-lua/plenary.nvim",
+      "hrsh7th/nvim-cmp",
+    },
+    config = function()
+      require("codeium").setup({
+      })
+    end
+  }
 end)
