@@ -44,6 +44,8 @@ cmp.setup({
   formatting = {
     format = lspkind.cmp_format({
       maxwidth = 50,
+      ellipsis_char = '...',
+      symbol_map = { Codeium = "", },
       before = function(entry, vim_item)
         vim_item = formatForTailwindCSS(entry, vim_item)
         return vim_item
